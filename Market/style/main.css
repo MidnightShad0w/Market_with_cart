@@ -1,0 +1,71 @@
+html{
+    font-size: 16px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000;
+    background: #fff;
+    min-width: 320px;
+}
+img{
+    min-width: 100%;
+    max-height: auto;
+}
+
+section{
+    padding: 50px 0;
+}
+.nav-link{
+    color: #222;
+}
+.nav-link:hover{
+    color: #444;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 3px;
+}
+/* header */
+.navbar-dark .navbar-nav .nav-link{
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+
+/* cards */
+.goods-card:hover{
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px -4px 19px -5px #6E6E6E; 
+    box-shadow: 0px 10px 13px -7px #000000, 5px -4px 19px -5px #6E6E6E;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.product-thumb a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.product-thumb img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.product-price{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.delete{
+    margin-left: 30px;
+}
+.minus{
+    margin-left: 10px;
+}
+.plus{
+    margin-right: 10px;
+}
+.card-in-cart{
+    margin-top: 10px;
+}
